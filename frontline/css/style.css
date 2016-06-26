@@ -1,0 +1,58 @@
+#htmlmain
+{
+  position:relative;
+}
+#explorediv
+{
+  float:left;
+  background-color:grey;
+  border:2px solid black;
+}
+#navigation
+{
+  background-color:grey;
+  position:relative;
+  float:left;
+  border:2px solid black;
+}
+
+#TYPE
+{
+  position:relative;
+  top:500;
+  
+}
+
+#sortBY
+{
+  
+ float:left;  
+}
+
+#header
+{
+  
+  text-align:centre;
+  color:red; 
+  background-color:yellow;
+  padding:5px;
+}
+#search
+{
+  
+  
+}
+section {
+    width:530px;
+    height:400px;
+    float:right;
+    padding:10px;
+    background-color:grey;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    float:left;
+    height:400px;
+    padding:11px; 
+}
