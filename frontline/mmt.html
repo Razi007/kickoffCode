@@ -2,12 +2,12 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
     <title>A Pen by  Razi Ahmed</title>
     
     
     
-    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
         <link rel="stylesheet" href="css/style.css">
 
     
@@ -17,44 +17,52 @@
 
   <body>
 
-    <div id="htmlmain">
-
-<div id="header">
+    <div id="pageheader" class="container-fluid text-center">
 <h1>MAKEMYTRIP.COM</h1>
 </div>
 
-<div id="navigation">  
-<div id="TYPE">
-<ul>  
-<fieldset id="radiofield">  
-<li><input type="radio" name="rd">Elevation</li>
-<li><input type="radio" name="rd">Direct Flight</li>
-<li><input type="radio" name="rd">Rating</li> 
-</fieldset>
-</ul>  
-</div>  
-<div id="sortBY">
-<ul>  
-<fieldset>  
-<li><input type="checkbox">All</li>
-<li><input type="checkbox">Civil Airports</li>
-<li><input type="checkbox">Miilitary Airport</li>
-<li><input type="checkbox">Miilitary Airport</li>
-<li><input type="checkbox">Sea Plane Base</li>
-<li><input type="checkbox">Harbours</li>
-</fieldset> 
-</ul>  
+<div class="container-fluid">
+  <div class="row content">
+    <div id="navigation" class="col-sm-3 sidenav">
+      
+      <div class="radio">
+  <label><input type="radio" name="optradio">Elevation </label>
 </div>
-</div>  
-  
-<div id="explorediv">  
-<div id="search">
-<input type="text" required>
-<input type="button" value="explore">
+<div class="radio">
+  <label><input type="radio" name="optradio">Direct Flight</label>
+</div>
+<div class="radio ">
+  <label><input type="radio" name="optradio" >Rating</label>
+</div>
+        
+ <div class="checkbox">
+  <label><input type="checkbox" value="">All</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">Civil Airports</label>
+</div>
+<div class="checkbox disabled">
+  <label><input type="checkbox" value="" >Militiary Airports</label>
+</div>
+<div class="checkbox ">
+  <label><input type="checkbox" value="" >Sea Plane Base</label>
 </div> 
-</div>  
-  
-
+     <div class="checkbox ">
+  <label><input type="checkbox" value="" >Harbours</label>
+</div> 
+ 
+     </div>
+    <div id="explore" class="col-sm-9">
+      <div class="input-group">
+        <input type="text" class="form-control" >
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>  
+    </div>  
+ </div>
 </div>
     
     
