@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ecomstore.catalog',
-    'ecomstore.utils', 	
+    'ecomstore.utils',
+    'ecomstore.cart',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -71,6 +72,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.media', 
                 'ecomstore.utils.context_processors.ecomstore', 
             ],
         },
@@ -137,6 +139,6 @@ STATIC_URL = '/static/'
 SITE_NAME = 'Modern Musician'
 META_KEYWORDS = 'Music, instruments, music accessories, musician supplies'
 META_DESCRIPTION = 'Modern Musician is an online supplier of instruments, sheet music, and other accessories for musicians' 
-#MEDIA_URL = '/static/' 
+MEDIA_URL = '/home/raziahmed/hub1/kickoffCode/djangokickoff/ecomstore/ecomstore/static/' 
 
 

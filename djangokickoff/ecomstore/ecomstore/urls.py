@@ -26,8 +26,8 @@ urlpatterns = patterns('',
  # other commented code here.
  	(r'^admin/', admin.site.urls),
  	(r'^', include('ecomstore.catalog.urls')),
-
- )
+    (r'^cart/', include('ecomstore.cart.urls')),
+)
 
 
 if settings.DEBUG:
